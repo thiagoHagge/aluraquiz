@@ -18,6 +18,9 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
+  input[type="radio"] {
+    display: none;
+  }
 `;
 
 Widget.Header = styled.header`
